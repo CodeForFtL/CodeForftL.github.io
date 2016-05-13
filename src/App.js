@@ -114,7 +114,7 @@ var DetailLinks = React.createClass({
           <img src="images/captain.png" alt="CfA Brigade Captain" />
           <h2>Come To Our Meetups</h2>
           <p>A casual <a href="http://www.meetup.com/Code-for-FTL/">meetup</a>, usually weekly, meeting in Fort Lauderdale.</p>
-          <p><button className="btn btn-default" href="#meetup">View details »</button> </p>
+          <p><a href="#meetup"><button className="btn btn-default">View details »</button></a></p>
         </div>
 
 
@@ -123,7 +123,7 @@ var DetailLinks = React.createClass({
           <img src="images/community.png" alt="Community" />
           <h2>Join Online Discussions</h2>
           <p><a href="https://groups.google.com/forum/#!forum/code-for-ftl"> An open conversation online</a> about what we're doing now and what's next.</p>
-          <p><button className="btn btn-default" href="#groups">View details »</button> </p>
+          <p><a href="#groups"><button className="btn btn-default">View details »</button></a></p>
         </div>
 
 
@@ -132,7 +132,7 @@ var DetailLinks = React.createClass({
           <img src="images/cfa_logo_greyscale.png" alt="Code for America" />
           <h2>See Our Inspiration</h2>
           <p><a href="http://codeforamerica.org/">Code for America</a> is the organization that helped inspire many of us that we can change our City.</p>
-          <p><button className="btn btn-default" href="#cfa">View details »</button> </p>
+          <p><a href="#cfa"><button className="btn btn-default">View details »</button></a></p>
         </div>
         {/* /.span4 */}
       </div>
@@ -234,8 +234,10 @@ var WeDiscussOnline = React.createClass({
 
         <h2 className="featurette-heading">We Discuss Things Online. <span className="muted">Join and Introduce Yourself.</span></h2>
 
-        <p className="lead">Can't make it to a meetup? No problem. We collaborate on projects, ask for help, and post wins to our
-          <a href="https://codeforftl.slack.com">Code for Fort Lauderdale Slack Channel</a> where you can get new posts in email and reply. We welcome anyone to e-mail <a href="mailto:codeforftl@gmail.com"> CodeForFTL at gmail.com</a> to join our slack channel... you might just see something you're interested in helping with.
+        <p className="lead">Can't make it to a meetup? No problem. We collaborate on projects, ask for help, and post wins to 
+		our <a href="https://codeforftl.slack.com">Code for Fort Lauderdale Slack Channel</a> where you can get new posts in email and reply. 
+		We welcome anyone to e-mail <a href="mailto:codeforftl@gmail.com"> CodeForFTL at gmail.com</a> to join our slack channel... you might 
+		just see something you're interested in helping with.
         </p>
 
         <p className="lead">Follow us on Twitter!</p>
