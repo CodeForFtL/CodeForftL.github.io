@@ -1,17 +1,21 @@
     /* GLOBAL STYLES
     -------------------------------------------------- */
     /* Padding below the footer and lighter body text */
+$c4mblue: #399fd3;
+$c4mred: #cf1b41;
 
     body {
       padding-bottom: 40px;
       color: #5a5a5a;
     }
+
     .lead li{
       margin-bottom: 10px;
     }
 
     .c4mblue { color: #399fd3; }
     .c4mred { color: #cf1b41; }
+    .muted { color: #999 ;}
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
@@ -26,9 +30,7 @@
       margin-top: 20px;
       margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
     }
-    .navbar-wrapper .navbar {
 
-    }
 
     /* Remove border and change up box shadow for more contrast */
     .navbar .navbar-inner {
@@ -120,17 +122,23 @@
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
+    .marketing{
+      .col-xs-4{
+        text-align: center;
+        p {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+      h2 {
+        font-weight: normal;
+      }
+
+    }
     /* Center align the text within the three columns below the carousel */
-    .marketing .span4 {
-      text-align: center;
-    }
-    .marketing h2 {
-      font-weight: normal;
-    }
-    .marketing .span4 p {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+
+
+
 
 
     /* Featurettes
@@ -164,32 +172,32 @@
       letter-spacing: -1px;
     }
 
-    .memberbox{ 
-      margin-top:15px; 
+    .memberbox{
+      margin-top:15px;
       margin-bottom:10px;
     }
     .memberbox h2{
-      color:#aaa; 
-      font-size:150%; 
+      color:#aaa;
+      font-size:150%;
       margin-bottom:0
     }
     .carousel-caption .pix-thumb{
-      position:relative; 
-      min-width:45px; 
-      margin-right:5px; 
-      border-radius:6px; 
-      width:45px; 
+      position:relative;
+      min-width:45px;
+      margin-right:5px;
+      border-radius:6px;
+      width:45px;
       height:45px
     }
     .membercheckin{
-      margin-top:20px; 
+      margin-top:20px;
       color:#fff
     }
     .carousel-caption{
       margin-top:100px
     }
     .tip{
-      display:inline-block; 
+      display:inline-block;
       position:relative
     }
 
@@ -202,6 +210,12 @@
 
     @media (max-width: 1200px) {
       .pull-right { width: 600px; }
+      .span4 { width:370px;}
+      [class*="span"]{
+        float:left;
+        min-height: 1px;
+        margin-left:30px;
+      }
     }
 
     @media (max-width: 979px) {
@@ -231,8 +245,8 @@
       .pull-left {
         display: block;
         margin-left: auto;
-        margin-right: auto;   
-        float: inherit;   
+        margin-right: auto;
+        float: inherit;
       }
 
       .featurette-image.pull-left,
