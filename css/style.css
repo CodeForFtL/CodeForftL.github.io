@@ -148,7 +148,7 @@
       padding-bottom: 40px;
     }
 
-    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    /* Give some space on the sides of the floated elements so textdoesn't run right into it. */
     .featurette-image.pull-left {
       margin-right: 40px;
     }
@@ -201,7 +201,7 @@
     -------------------------------------------------- */
 
     @media (max-width: 1200px) {
-      .pull-right { width: 600px; clear:both;}
+      .pull-right { width: 600px}
       .calendar iframe {width:100%}
     }
 
@@ -253,6 +253,8 @@
 
 
     @media (max-width: 767px) {
+
+      .pull-right{clear:both}
 
       .carousel {
         margin-left: -20px;
