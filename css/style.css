@@ -201,7 +201,8 @@
     -------------------------------------------------- */
 
     @media (max-width: 1200px) {
-      .pull-right { width: 600px}
+
+      .pull-right { width: 600px; clear:both;}
       .calendar iframe {width:100%}
     }
 
@@ -254,7 +255,7 @@
 
     @media (max-width: 767px) {
 
-      .pull-right{clear:both}
+      .pull-right{clear:both; float:none}
 
       .carousel {
         margin-left: -20px;
