@@ -193,7 +193,7 @@
       position:relative
     }
 
-    div.calendar {
+    calendar {
         text-align: center;
     }
 
@@ -201,7 +201,8 @@
     -------------------------------------------------- */
 
     @media (max-width: 1200px) {
-      .pull-right { width: 600px; }
+      .pull-right { width: 600px; clear:both;}
+      .calendar iframe {width:100%}
     }
 
     @media (max-width: 979px) {
