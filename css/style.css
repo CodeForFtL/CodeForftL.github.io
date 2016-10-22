@@ -193,7 +193,7 @@
       position:relative
     }
 
-    calendar {
+    div.calendar {
         text-align: center;
     }
 
