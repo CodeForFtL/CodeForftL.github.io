@@ -148,7 +148,7 @@
       padding-bottom: 40px;
     }
 
-    /* Give some space on the sides of the floated elements so textdoesn't run right into it. */
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
     .featurette-image.pull-left {
       margin-right: 40px;
     }
@@ -202,8 +202,8 @@
 
     @media (max-width: 1200px) {
 
-      .pull-right { width: 600px; clear:both;}
-      .calendar iframe {width:100%}
+      .pull-right { width: 600px; }
+       iframe {width:100%}
     }
 
     @media (max-width: 979px) {
@@ -255,8 +255,8 @@
 
     @media (max-width: 767px) {
 
-      .pull-right{clear:both; float:none}
-
+      .pull-right {width:100%; float:none}
+ 
       .carousel {
         margin-left: -20px;
         margin-right: -20px;
