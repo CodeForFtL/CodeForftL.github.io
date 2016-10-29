@@ -197,6 +197,19 @@
         text-align: center;
     }
 
+    
+    /* Meetup
+    -------------------------------------------------- */
+
+   .meetup{width:60%; position:relative; margin:auto; clear:both}
+.meetup h3{float:left; width:100%; text-align:center; margin:4% 0px}
+.meetup span {  margin-left:1%;   border: 2px solid;
+    border-radius:100px; font-size:18px; padding:0px 2%;}
+.meetup #description {float:left;}
+.meetup #status{width:100%; float:left; text-align:center; margin-bottom:2%}
+
+
+
     /* RESPONSIVE CSS
     -------------------------------------------------- */
 
